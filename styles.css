@@ -1,0 +1,287 @@
+/*-- DOM Elements --*/
+
+body{
+  
+  padding-top: 10rem;
+  
+}
+#char{
+  padding-top: 75px;
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid white;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgba(69, 69, 102, 0.75);
+ 
+  
+}
+
+
+#mouth{
+  margin: 80px 72px;
+   width: 100px;
+   height: 20px;
+   border: solid 5px #000;
+   border-color:  transparent transparent  black transparent; 
+  
+}
+#controls{
+    
+    width: 100%;
+    display: flex; /* or inline-flex */
+    justify-content: center;
+    padding: 2px; 
+    text-align: center;
+ 
+
+}
+
+#good{
+    margin: 10px;
+  width: 100px;
+  height: 100px;
+/*  background-color: green;*/
+
+}
+
+img{
+    
+    max-height: 100px;
+    padding: 1px;
+
+    
+    
+}
+
+#bad{
+  
+       margin: 10px;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+    
+    
+}
+
+
+#rainbow{
+  
+       margin: 10px;
+
+  width: 100px;
+  height: 100px;
+
+    
+    
+}
+
+
+#question{
+    
+        margin: 10px;
+  
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+    
+}
+
+#browL{
+height: 5px;
+    border-bottom: 5px solid black;
+    width: 30%;
+    float: left;
+  
+}
+
+
+#browR{
+  height: 5px;
+    width: 30%;
+    float: right;
+    border-bottom: 5px solid black;
+  
+
+  
+}
+
+#eyebrows{
+    
+    width: 70%;
+    margin: 0 auto;
+
+    height: 10px; 
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+#eyes{
+    
+    width: 80%;
+    margin: 0 auto;
+    height: 25px;
+    padding-top: 10px; 
+    
+    
+}
+
+#eyeL{
+ 
+  
+    float: left;  
+    margin-left: 30px; 
+
+
+}
+
+
+#eyeR{
+    
+   
+
+   
+    float: right;
+    margin-right: 30px;
+    
+
+    
+}
+/*-- Classes --*/
+
+.pupil{
+  
+  width: 7px;
+  background-color: white;
+  height: 7px;
+  border-radius: 50%;
+  margin: 28px;
+  
+}
+
+.pupil2{
+  
+  width: 7px;
+  background-color: white;
+  height: 7px;
+  border-radius: 50%;
+  margin: -30px 30px;
+  
+}
+.hidden{
+  display: none;
+  
+}
+
+.squint{
+  animation-play-state: running;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 10;
+}
+.eye{
+
+  background-color: black;
+  height: 35px;
+  width: 17%;
+     border-radius: 50%;
+}
+
+.smile{
+  border-radius: 50%;
+  
+}
+.squint{
+  
+  height: 5px!important;
+    border-radius: 0 !important;
+    margin-top: 1rem;
+  
+}
+
+.bug{
+  width: 50px!important;
+  height: 50px!important;
+  
+}
+.frown{
+  
+   border-color: black transparent transparent transparent!important;
+  border-radius: 50%;
+  margin-top: 6rem !important;
+  
+}
+
+.shrink{
+    
+     width: 20px!important;
+  height: 20px!important;
+
+}
+
+.rotateRight{
+    transform: rotate(30deg);
+   
+    
+    
+}
+
+.rotateLeft{
+       transform: rotate(330deg);
+
+    
+    
+}
+
+/*-- Rainbow stuff --*/
+
+.rainbowBrowL{
+    transform:rotate(134deg);
+    transform-origin: 10px 20px;
+       border-radius: 50%;
+    width: 20%!important;
+}
+
+
+.rainbowBrowR{
+    transform:rotate(220deg);
+    transform-origin: 24px 21px;
+    width: 20%!important;
+    border-radius: 50%;
+}
+
+
+.rainbug{
+      width: 60px!important;
+      height: 60px!important;
+  
+    
+    
+}
+
+.rainpupil{
+    
+    transform:translate(-6px, -4px);
+    
+}
+
+.rainpupil2{
+    
+    transform:translate(1px, -20px);
+    
+    
+}
+
+#rainmouth{
+    height:80px;
+     width:150px;
+     border-radius: 0 0 90px 90px;
+     background:black;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
