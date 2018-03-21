@@ -3,23 +3,26 @@
 body{
   
   padding-top: 10rem;
+    background-color: steelblue
   
 }
 #char{
   padding-top: 75px;
-  width: 250px;
+  width: 240px;
   margin: 0 auto;
-  border: 1px solid white;
   height: 250px;
-  border-radius: 50%;
-  background-color: rgba(69, 69, 102, 0.75);
+  border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+  background-color: rgba(69, 69, 102);
+      border-bottom-left-radius: 1000%;
+border-bottom-right-radius: 1000%;
  
   
 }
 
 
 #mouth{
-  margin: 80px 72px;
+  margin: 10px 72px;
    width: 100px;
    height: 20px;
    border: solid 5px #000;
@@ -47,7 +50,7 @@ body{
 
 img{
     
-    max-height: 100px;
+    max-width: 100px;
     padding: 1px;
 
     
@@ -61,7 +64,7 @@ img{
   width: 100px;
   height: 100px;
 
-  background-color: red;
+/*  background-color: red;*/
     
     
 }
@@ -78,6 +81,13 @@ img{
     
 }
 
+#panic{
+    
+
+    max-width: 80px;
+    
+    
+}
 
 #question{
     
@@ -85,8 +95,6 @@ img{
   
   width: 100px;
   height: 100px;
-  background-color: yellow;
-    
 }
 
 #browL{
@@ -112,7 +120,7 @@ height: 5px;
     
     width: 70%;
     margin: 0 auto;
-
+    margin-top: -50px;
     height: 10px; 
     margin-bottom: 20px;
     
@@ -125,7 +133,7 @@ height: 5px;
     width: 80%;
     margin: 0 auto;
     height: 25px;
-    padding-top: 10px; 
+    padding-top: 0px; 
     
     
 }
@@ -149,6 +157,35 @@ height: 5px;
     margin-right: 30px;
     
 
+    
+}
+
+/*-- Ears --*/
+
+#ears{
+    width: 120%;
+    transform: translate(-25px, 30px);
+    margin: 0 auto;
+    display: flex;
+        justify-content: space-between;
+    
+}
+
+#earL{
+    height: 50px;
+    width: 20%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: rgb(69, 69, 102);
+    
+}
+#earR{
+    height: 50px;
+    width: 20%;
+
+      border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(69, 69, 102);
     
 }
 /*-- Classes --*/
@@ -212,7 +249,7 @@ height: 5px;
   
    border-color: black transparent transparent transparent!important;
   border-radius: 50%;
-  margin-top: 6rem !important;
+  margin-top: 2rem !important;
   
 }
 

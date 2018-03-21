@@ -1,0 +1,31 @@
+#hat{
+    
+    width: 400px;
+    height: 60px;
+    border: 2px solid black;
+    margin: -60px auto;
+    border-radius: 90%;
+    background-color: tan;
+    position: relative;
+    z-index: 999;
+    border-bottom-color: green;
+    border-bottom-width: 20px;
+}
+
+#top{
+    
+    
+    width: 150px;
+    height: 60px;
+    border: 2px solid black;
+     border-bottom-color: red;
+    border-bottom-width: 20px;
+    margin: 19px auto;
+    position: relative;
+    z-index: 9999;
+    background-color: tan;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+        border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
