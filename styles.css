@@ -322,3 +322,15 @@ height: 5px;
     margin-top: 80px;
     
 }
+
+/*-- Question Mouth --*/
+
+.questionMouth{
+
+    border-bottom: 5px solid black!important;
+    margin: 0 auto;
+    width: 50px!important;
+    margin-left: 95px!important;
+    
+    
+}

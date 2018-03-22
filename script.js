@@ -48,21 +48,22 @@ $('#bad').hover(
 $('#question').hover(
     
     function(){
+        
         $('#mouth').addClass('smile');
-    $('#mouth').addClass('rotateLeft');
-     $('#browR').addClass('rotateRight');
+        $('#mouth').addClass('questionMouth');
+        $('#browR').addClass('rotateRight');
         $('#browL').addClass('rotateLeft');
         $('.eye').addClass('shrink');
 
     },
     
     function(){
-                $('#mouth').removeClass('smile');
-
-        $('#mouth').removeClass('rotateLeft');    
-     $('#browR').removeClass('rotateRight');
+        
+        $('#mouth').removeClass('smile');
+        $('#mouth').removeClass('questionMouth');    
+        $('#browR').removeClass('rotateRight');
         $('#browL').removeClass('rotateLeft');
-                $('.eye').removeClass('shrink');
+        $('.eye').removeClass('shrink');
 
         
     }
@@ -94,7 +95,7 @@ $('#rainbow').hover(function(){
             $('#mouth').hide();
             $('#rainmouth').show();
             $('.pupil').removeClass('hidden');
-    $('.pupil2').removeClass('hidden');
+            $('.pupil2').removeClass('hidden');
             $('#browL').addClass('rainbowBrowL');
             $('#browR').addClass('rainbowBrowR');
             $('.eye').addClass('rainbug');
@@ -102,14 +103,14 @@ $('#rainbow').hover(function(){
 },
     
     function(){
-              $('#mouth').show();
+       
+            $('#mouth').show();
             $('#rainmouth').hide(); 
-                $('.pupil').addClass('hidden');
-                    $('.pupil2').addClass('hidden');
-
-         $('#browL').removeClass('rainbowBrowL');
+            $('.pupil').addClass('hidden');
+            $('.pupil2').addClass('hidden');
+            $('#browL').removeClass('rainbowBrowL');
             $('#browR').removeClass('rainbowBrowR');
-        $('.eye').removeClass('rainbug');
+            $('.eye').removeClass('rainbug');
 
 }
                 
